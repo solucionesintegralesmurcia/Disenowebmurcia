@@ -1,120 +1,391 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NEKO LURES | Eging, Poteras Artesanas y Material Recomendado</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="./css/style.css">
+  <title>Diseño Web en Murcia | WebMasters Pro</title>
+  <meta
+    name="description"
+    content="Diseño web en Murcia, landing pages, mantenimiento web, actualizaciones, SEO local y mejora de Google Business para negocios, autónomos y empresas."
+  />
+  <meta
+    name="keywords"
+    content="diseño web Murcia, mantenimiento web Murcia, landing page Murcia, SEO local Murcia, Google Business Murcia, creación de páginas web Murcia"
+  />
+  <meta name="author" content="WebMasters Pro" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <meta property="og:title" content="Diseño Web en Murcia | WebMasters Pro" />
+  <meta
+    property="og:description"
+    content="Creación de páginas web, landing pages, mantenimiento, posicionamiento y mejora de Google Business en Murcia."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="webmasterpro.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#inicio" class="brand">
+        <img src="webmasterpro.png" alt="WebMasters Pro" class="brand-logo" />
+      </a>
 
-<header>
-  <div class="container nav">
-    <div class="logo">NEKO LURES</div>
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="./poteras-artesanas.html">Poteras</a>
-      <a href="./ropa-eging.html">Ropa</a>
-      <a href="./material-recomendado-eging.html">Material</a>
-      <a href="./guias-eging.html">Guías</a>
-      <a href="./contacto.html">Contacto</a>
-    </nav>
-  </div>
-</header>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-<section class="hero">
-  <div class="container">
-    <h1>Eging real, poteras artesanas y material probado</h1>
-    <p>Todo lo que necesitas para pescar calamares con criterio: productos propios, ropa y recomendaciones sin humo.</p>
-    <div class="buttons">
-      <a href="./poteras-artesanas.html" class="btn">Ver poteras</a>
-      <a href="./material-recomendado-eging.html" class="btn secondary">Material recomendado</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#por-que">Por qué elegirnos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto" class="btn btn-nav">Contacto</a>
+      </nav>
     </div>
-  </div>
-</section>
+  </header>
 
-<section class="section">
-  <div class="container">
-    <h2>Poteras artesanas</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Modelos exclusivos</h3>
-        <p>Diseños trabajados a mano con patrones únicos.</p>
-        <a href="./poteras-artesanas.html">Ver colección</a>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="eyebrow">Diseño web · Landing pages · Mantenimiento · SEO local</span>
+          <h1>Diseño web en Murcia para negocios que quieren verse profesionales y conseguir clientes</h1>
+          <p class="hero-description">
+            En WebMasters Pro creamos páginas web modernas, landing pages pensadas para convertir,
+            mantenimiento web, actualizaciones y mejoras de visibilidad online para empresas,
+            autónomos y negocios que quieren dar una imagen seria y profesional.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="tel:+34639311161" class="btn">Llamar ahora</a>
+            <a href="https://wa.me/34639311161" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              WhatsApp
+            </a>
+          </div>
+
+          <ul class="hero-points">
+            <li>Diseño moderno y responsive</li>
+            <li>Orientado a negocio real</li>
+            <li>Base preparada para SEO local</li>
+          </ul>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-box">
+            <img src="webmasterpro.png" alt="Logo WebMasters Pro" class="hero-logo" />
+            <div class="hero-mini-stats">
+              <div>
+                <strong>Web profesional</strong>
+                <span>Diseño serio y limpio</span>
+              </div>
+              <div>
+                <strong>Mantenimiento</strong>
+                <span>Soporte y actualizaciones</span>
+              </div>
+              <div>
+                <strong>Murcia</strong>
+                <span>Base local con alcance ampliable</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Series limitadas</h3>
-        <p>Producciones pequeñas, sin reposición masiva.</p>
-        <a href="./poteras-artesanas.html">Explorar</a>
+    <section class="trust-bar">
+      <div class="container trust-grid">
+        <div>Webs limpias</div>
+        <div>Imagen premium</div>
+        <div>Captación por WhatsApp</div>
+        <div>Enfoque local</div>
+      </div>
+    </section>
+
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Servicios</span>
+          <h2>Servicios digitales para negocios que quieren una presencia online seria</h2>
+          <p>
+            No se trata solo de tener una web bonita. Se trata de tener una página clara,
+            profesional y útil para que el cliente entienda lo que haces y te contacte.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">01</div>
+            <h3>Creación de páginas web</h3>
+            <p>
+              Diseñamos webs modernas, rápidas y adaptadas a móvil para transmitir confianza
+              y mostrar tu negocio de forma profesional.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">02</div>
+            <h3>Landing pages para captar clientes</h3>
+            <p>
+              Páginas enfocadas a conseguir llamadas, formularios o WhatsApp, con estructura
+              comercial y mensaje claro.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">03</div>
+            <h3>Mantenimiento y actualizaciones</h3>
+            <p>
+              Mejoramos, revisamos y actualizamos webs para que se vean bien, funcionen correctamente
+              y no den imagen de abandono.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">04</div>
+            <h3>SEO local en Murcia</h3>
+            <p>
+              Preparamos la base de tu web para ayudarte a tener mejor presencia local y empezar
+              a trabajar posicionamiento de forma seria.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">05</div>
+            <h3>Google Business Profile</h3>
+            <p>
+              Te ayudamos a mejorar la imagen de tu ficha, reforzar tu presencia online y alinear
+              tu web con tu negocio local.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">06</div>
+            <h3>Apoyo digital para empresas</h3>
+            <p>
+              Si ya tienes negocio pero no tienes una presencia online profesional, te ayudamos
+              a dar ese paso con una solución clara y útil.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="por-que">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Por qué elegirnos</span>
+          <h2>Una web debe ayudarte a vender mejor tu servicio</h2>
+          <p>
+            La mayoría de negocios no necesitan una web complicada. Necesitan una web clara,
+            profesional y pensada para convertir visitas en contactos.
+          </p>
+        </div>
+
+        <div class="reasons-grid">
+          <div class="reason-box">
+            <h3>Imagen profesional</h3>
+            <p>
+              Tu negocio necesita verse serio, ordenado y fiable. Diseñamos webs con enfoque
+              comercial y acabado profesional.
+            </p>
+          </div>
+
+          <div class="reason-box">
+            <h3>Diseño responsive real</h3>
+            <p>
+              La mayoría de visitas llegan desde móvil. Tu web debe verse bien, cargar rápido
+              y tener botones de contacto visibles.
+            </p>
+          </div>
+
+          <div class="reason-box">
+            <h3>Orientada a negocio local</h3>
+            <p>
+              Pensamos la estructura para negocios, autónomos y empresas que trabajan en Murcia
+              o quieren captar clientes de forma local.
+            </p>
+          </div>
+
+          <div class="reason-box">
+            <h3>Mantenimiento y continuidad</h3>
+            <p>
+              No solo creamos la web. También podemos ayudarte a mantenerla actualizada y mejor
+              organizada con el tiempo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-box">
+        <div class="cta-text">
+          <span class="section-tag">Solución directa</span>
+          <h2>Si tu negocio no tiene una web seria, estás perdiendo imagen y oportunidades</h2>
+          <p>
+            Creamos una presencia online más profesional para que tu empresa transmita confianza
+            desde el primer vistazo.
+          </p>
+        </div>
+        <div class="cta-buttons">
+          <a href="tel:+34639311161" class="btn">Llamar</a>
+          <a href="https://wa.me/34639311161" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            Pedir información por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Preguntas frecuentes</span>
+          <h2>Lo que suele preguntar un cliente antes de hacer su web</h2>
+          <p>
+            Aquí resolvemos algunas dudas habituales para que tengas una idea clara de cómo trabajamos.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>¿Hacéis solo diseño web o también mantenimiento?</summary>
+            <p>
+              Hacemos ambas cosas. Podemos crear tu web desde cero o ayudarte a mantener,
+              actualizar y mejorar una web que ya tengas.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿La web se adapta a móvil?</summary>
+            <p>
+              Sí. Todas las páginas se diseñan para verse correctamente en móvil, tablet y ordenador.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿Podéis orientarla a Murcia?</summary>
+            <p>
+              Sí. De hecho, recomendamos empezar con una base local para Murcia y después ampliar
+              a más ciudades o servicios si hace falta.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿También ayudáis con SEO local o Google Business?</summary>
+            <p>
+              Sí. Podemos preparar la estructura de la web con sentido local y ayudarte a reforzar
+              tu presencia online y tu imagen digital.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿Es mejor una landing o una web más grande?</summary>
+            <p>
+              Para muchos negocios, empezar con una landing bien hecha es la opción más rápida y eficaz.
+              Luego se puede ampliar con más páginas.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Contacto</span>
+          <h2>Hablemos de tu web</h2>
+          <p>
+            Si necesitas una página web profesional, una landing page para captar clientes o mejorar
+            la presencia online de tu negocio, ponte en contacto con WebMasters Pro.
+          </p>
+
+          <div class="contact-cards">
+            <div class="contact-card">
+              <h3>Teléfono</h3>
+              <p><a href="tel:+34639311161">639 31 11 61</a></p>
+            </div>
+
+            <div class="contact-card">
+              <h3>WhatsApp</h3>
+              <p>
+                <a href="https://wa.me/34639311161" target="_blank" rel="noopener noreferrer">
+                  Escribir por WhatsApp
+                </a>
+              </p>
+            </div>
+
+            <div class="contact-card">
+              <h3>Zona</h3>
+              <p>Murcia y proyectos ampliables a otras zonas</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required />
+          </div>
+
+          <div class="form-group">
+            <label for="negocio">Negocio o sector</label>
+            <input type="text" id="negocio" name="negocio" placeholder="Ej: cerrajería, clínica, reformas..." required />
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Qué necesitas</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos qué necesitas" required></textarea>
+          </div>
+
+          <button type="submit" class="btn full-width">Solicitar información</button>
+          <p class="form-message" id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a
+    href="https://wa.me/34639311161"
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Abrir WhatsApp"
+  >
+    WhatsApp
+  </a>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>WebMasters Pro</strong>
+        <p>Diseño y mantenimiento web en Murcia</p>
+      </div>
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
       </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<section class="section dark">
-  <div class="container">
-    <h2>Ropa NEKO</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Camisetas</h3>
-        <p>Diseños propios inspirados en el eging.</p>
-        <a href="./ropa-eging.html">Ver ropa</a>
-      </div>
-
-      <div class="card">
-        <h3>Sudaderas</h3>
-        <p>Comodidad y estilo dentro y fuera del agua.</p>
-        <a href="./ropa-eging.html">Explorar</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2>Material recomendado</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Cañas</h3>
-      </div>
-      <div class="card">
-        <h3>Carretes</h3>
-      </div>
-      <div class="card">
-        <h3>Trenzados</h3>
-      </div>
-      <div class="card">
-        <h3>Accesorios</h3>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section dark">
-  <div class="container">
-    <h2>Guías de eging</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Cómo elegir una potera</h3>
-      </div>
-      <div class="card">
-        <h3>Color vs acción</h3>
-      </div>
-      <div class="card">
-        <h3>Trenzado ideal</h3>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    <p>© NEKO LURES - Eging y pesca del calamar</p>
-  </div>
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
