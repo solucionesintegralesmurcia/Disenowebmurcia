@@ -975,3 +975,37 @@ img {
     display: inline-flex !important;
   }
 }
+@media (max-width: 768px) {
+  .pack-badge {
+    margin-bottom: 22px;
+  }
+
+  .price-card h3 {
+    margin-top: 6px;
+    margin-bottom: 18px;
+    line-height: 1.12;
+  }
+
+  .price-subtitle {
+    margin-bottom: 26px;
+    line-height: 1.45;
+  }
+
+  .price-list {
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+
+  .price-list p {
+    line-height: 1.35;
+  }
+
+  .price-box {
+    margin-top: 10px;
+    margin-bottom: 28px;
+  }
+
+  .recommended {
+    margin-bottom: 18px;
+  }
+}
