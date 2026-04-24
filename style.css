@@ -936,3 +936,42 @@ img {
     padding: 0 12px;
   }
 }
+@media (max-width: 768px) {
+  .hero-grid,
+  .services-grid,
+  .pricing-grid,
+  .monthly-grid,
+  .process-grid,
+  .reasons-grid,
+  .trust-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero-card,
+  .hero-card-box,
+  .service-card,
+  .price-card,
+  .monthly-card,
+  .process-card,
+  .reason-box,
+  .trust-grid div {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .price-card,
+  .monthly-card,
+  .service-card {
+    margin-bottom: 18px;
+  }
+
+  .hero-card {
+    margin-top: 24px;
+  }
+
+  .whatsapp-float {
+    display: inline-flex !important;
+  }
+}
