@@ -1055,3 +1055,6 @@ img {
     display: none !important;
   }
 }
+.trust-bar {
+  display: none;
+}
