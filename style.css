@@ -1104,3 +1104,26 @@ img {
     font-size: 2.6rem;
   }
 }
+/* HERO IMAGEN */
+.hero-card {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.4);
+}
+
+.hero-offer-box {
+  position: relative;
+  z-index: 2;
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+  .hero-image {
+    margin-bottom: 14px;
+  }
+}
