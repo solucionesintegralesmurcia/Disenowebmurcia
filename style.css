@@ -1145,3 +1145,24 @@ img {
     transform: none;
   }
 }
+/* ORDEN HERO EN MÓVIL */
+@media (max-width: 768px) {
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-card {
+    order: -1; /* SUBE LA IMAGEN ARRIBA */
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    order: 2;
+  }
+}
+@media (max-width: 768px) {
+  .hero-image {
+    border-radius: 16px;
+  }
+}
